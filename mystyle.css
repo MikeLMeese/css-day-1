@@ -1,0 +1,28 @@
+h1 {
+    color:aquamarine;
+    background-color: burlywood;
+}
+h2 {
+    color:violet
+}
+th {
+    background-color: turquoise;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+td.Student, 
+td.Age, 
+td.Color {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:hover {
+    background-color: yellow;
+}
